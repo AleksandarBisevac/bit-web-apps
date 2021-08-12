@@ -1,0 +1,17 @@
+{
+  "name": "03_npm_exercise",
+  "version": "1.0.0",
+  "description": "exercise for npm",
+  "main": "index.js",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3",
+    "figlet": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aleksandar_bisevac",
+  "license": "ISC"
+}

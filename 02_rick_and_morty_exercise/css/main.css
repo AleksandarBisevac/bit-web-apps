@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+#modal {
+  position: fixed;
+  top: 40%;
+  left: 25%;
+  width: 50vw;
+  z-index: 999;
+  background: #000;
+}
+
+.close {
+  position: relative;
+  width: 100%;
+}
+
+.fa-times-circle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #dc3545;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+#main {
+  background-image: url("https://i0.wp.com/wallur.com/wp-content/uploads/2016/12/rick-morty-background-14.png?w=1920");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.show {
+  display: block;
+}
